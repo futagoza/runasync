@@ -1,0 +1,36 @@
+{
+    "name": "runasync",
+    "version": "0.0.0",
+    "author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
+    "license": "MIT",
+    "description": "Run a script that exports an `async` function",
+    "keywords": [
+        "cli",
+        "async",
+        "await",
+        "es2017",
+        "node"
+    ],
+    "repository": "futagoza/runasync",
+    "bugs": "https://github.com/futagoza/runasync/issues",
+    "main": "index.js",
+    "bin": "runasync.js",
+    "scripts": {
+        "preversion": "npm install && npm test",
+        "postversion": "git push --follow-tags && npm publish",
+        "lint": "eslint --cache .",
+        "test": "node runasync example-async",
+        "ci": "npm run lint && npm test"
+    },
+    "devDependencies": {
+        "eslint": "4.1.1",
+        "eslint-config-futagozaryuu": "3.2.1"
+    },
+    "engines": {
+        "node": ">= 7.6.0"
+    },
+    "eslintConfig": {
+        "extends": "futagozaryuu/node-v7.6",
+        "root": true
+    }
+}
