@@ -1,10 +1,11 @@
 [![npm version](https://img.shields.io/npm/v/runasync.svg)](https://www.npmjs.com/package/runasync)
 [![License](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 
-> WARNING: Requires Node.js v7.6.0 or higher.
-
 This is a simple module to execute a JavaScript file that exports (as a default)
 a ES2017 `async` function (or a function that returns a ES2015 `Promise`).
+
+To use `async` function's you must have Node.js v7.6.0 or higher, where as for native
+support for Promise's requires Node.js v4.0.0
 
 ## installation
 

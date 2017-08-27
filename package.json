@@ -26,10 +26,10 @@
         "eslint-config-futagozaryuu": "3.4.x"
     },
     "engines": {
-        "node": ">= 7.6.0"
+        "node": ">= 4.0.0"
     },
     "eslintConfig": {
-        "extends": "futagozaryuu/node-v7.6",
+        "extends": "futagozaryuu/node-v4",
         "root": true
     }
 }
