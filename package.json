@@ -22,8 +22,8 @@
         "test": "node runasync examples/async"
     },
     "devDependencies": {
-        "eslint": "4.1.1",
-        "eslint-config-futagozaryuu": "3.2.1"
+        "eslint": "4.5.x",
+        "eslint-config-futagozaryuu": "3.4.x"
     },
     "engines": {
         "node": ">= 7.6.0"
