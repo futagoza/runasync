@@ -1,4 +1,3 @@
-[![Build status](https://api.travis-ci.org/futagoza/runasync.svg?branch=master)](https://travis-ci.org/futagoza/runasync)
 [![npm version](https://img.shields.io/npm/v/runasync.svg)](https://www.npmjs.com/package/runasync)
 [![License](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 

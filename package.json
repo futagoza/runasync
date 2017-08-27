@@ -19,8 +19,7 @@
         "preversion": "npm install && npm test",
         "postversion": "git push --follow-tags && npm publish",
         "lint": "eslint --cache .",
-        "test": "node runasync examples/async",
-        "ci": "npm run lint && npm test"
+        "test": "node runasync examples/async"
     },
     "devDependencies": {
         "eslint": "4.1.1",
