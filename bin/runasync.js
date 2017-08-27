@@ -3,7 +3,7 @@
 "use strict";
 
 const resolve = require( "path" ).resolve;
-const runAsyncFile = require( "./index" );
+const runAsyncFile = require( "../" );
 
 const id = resolve( process.cwd(), process.argv[ 2 ] );
 const args = process.argv.slice( 3 );
@@ -25,6 +25,5 @@ runAsyncFile( id, args, ( error, result ) => {
     }
 
     if ( result ) console.log( result );
-    process.exit( 0 );
 
 } );

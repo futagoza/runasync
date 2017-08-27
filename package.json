@@ -14,12 +14,12 @@
     "repository": "futagoza/runasync",
     "bugs": "https://github.com/futagoza/runasync/issues",
     "main": "lib/runAsyncFile.js",
-    "bin": "runasync.js",
+    "bin": "bin/runasync.js",
     "scripts": {
         "preversion": "npm install && npm test",
         "postversion": "git push --follow-tags && npm publish",
         "lint": "eslint --cache .",
-        "test": "node runasync examples/async"
+        "test": "node bin/runasync examples/async"
     },
     "devDependencies": {
         "eslint": "4.5.x",
