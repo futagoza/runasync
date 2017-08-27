@@ -13,7 +13,7 @@
     ],
     "repository": "futagoza/runasync",
     "bugs": "https://github.com/futagoza/runasync/issues",
-    "main": "index.js",
+    "main": "lib/runAsyncFile.js",
     "bin": "runasync.js",
     "scripts": {
         "preversion": "npm install && npm test",
